@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Triki</string>
+    <string name="next_player">turno: %1$s</string>
+    <string name="winner">El ganador es: %1$s</string>
+</resources>

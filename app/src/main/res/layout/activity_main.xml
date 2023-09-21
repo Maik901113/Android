@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#567DC1"
+    android:backgroundTint="#5E35B1"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="25px"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textColorHighlight="@color/white"
+        android:textColorHint="#F4EFEF"
+        android:textDirection="firstStrongRtl"
+        android:textSize="30sp" />
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25px"
+        android:columnOrderPreserved="false">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:background="@drawable/ic_launcher_background"
+            android:backgroundTint="#26A52B"
+            android:shadowColor="#8AE91E"
+            android:textColor="@android:color/background_dark"
+            android:textColorHighlight="#1B3247"
+            android:textColorLink="#0788F8"
+            android:textSize="60sp"
+            app:iconTint="#E53935"
+            app:rippleColor="#7CB342"
+            app:strokeColor="@color/design_default_color_error" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/border"
+            android:textColor="@android:color/background_dark"
+            android:textSize="60sp" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/border"
+            android:backgroundTint="#FB8C00"
+            android:textColor="@android:color/background_dark"
+            android:textColorHighlight="#DEE4DE"
+            android:textColorLink="@android:color/system_accent1_50"
+            android:textSize="60sp" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:background="@drawable/border"
+            android:textColor="@android:color/background_dark"
+            android:textSize="60sp" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/border"
+            android:textColor="@android:color/background_dark"
+            android:textSize="60sp" />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/border"
+            android:textColor="@android:color/background_dark"
+            android:textSize="60sp" />
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:background="@drawable/border"
+            android:shadowColor="#B12626"
+            android:textColor="@android:color/background_dark"
+            android:textColorLink="@color/design_default_color_on_secondary"
+            android:textSize="60sp"
+            app:strokeColor="#C30A0A" />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/border"
+            android:textColor="@android:color/background_dark"
+            android:textColorHighlight="@color/black"
+            android:textSize="60sp" />
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/border"
+            android:textColor="@android:color/background_dark"
+            android:textSize="60sp" />
+    </GridLayout>
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25px"
+        android:onClick="reset"
+        android:shadowColor="#9A2626"
+        android:text="Reset"
+        android:textColorLink="#E40F0F"
+        app:rippleColor="#CF1D1D"
+        app:strokeColor="#DA1919" />
+</LinearLayout>
